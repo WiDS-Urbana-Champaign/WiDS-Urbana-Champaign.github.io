@@ -194,7 +194,7 @@ before any homeworks are to be submitted.
 
 ## Assignment Details
 
-Students will be graded based on a combination of assignments including weekly prose/code homeworks, coding-based automatically-graded labs, and automatically quizzes and a final project.
+Students will be graded based on a combination of assignments including weekly prose/code homeworks, coding-based automatically-graded labs which are a practice of in-class coding concepts and/or preparatory setup work for future assignments, and automatically quizzes and a final project.
 The final project will be a capstone to the course, and will
 have greater flexibility in software packages and data sources.  This project
 will be introduced around Week 8.
@@ -211,6 +211,7 @@ The breakdown of your grade will be:
 ### Other notes about assessments
  * Unless otherwise specified, all assignments will be completed on the [PrairieLearn platform](https://us.prairielearn.com/).
  * There will be opportunities for extra credit in the homework and final project portions.  
+ * The suggested order to complete assignments for each module is Quiz, Lab, Homework/Final project part.
  * The *maximum* homework score is fixed at 40% (even with extra credit included).
  * Your lowest homework score will be dropped, however, we will not drop:
    * Homework \#1 (introduction, installations, etc)
