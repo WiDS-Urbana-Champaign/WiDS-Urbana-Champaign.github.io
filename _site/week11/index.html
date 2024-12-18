@@ -3,15 +3,15 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>IS445 - Data Viz - BCU/BCG - Web dev with Streamlit + HuggingFace</title>
+    <title>IS445 - Data Viz - BCU/BCG - Web dev with Streamlit + HuggingFace; Considering your audience</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link rel="stylesheet" href="/is445_bcubcg_fall2024/assets/style.css" />
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Web dev with Streamlit + HuggingFace | IS445 - Data Viz - BCU/BCG</title>
+<title>Web dev with Streamlit + HuggingFace; Considering your audience | IS445 - Data Viz - BCU/BCG</title>
 <meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="Web dev with Streamlit + HuggingFace" />
+<meta property="og:title" content="Web dev with Streamlit + HuggingFace; Considering your audience" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This is the course website for IS445-BCU/BCG in Fall 2024" />
 <meta property="og:description" content="This is the course website for IS445-BCU/BCG in Fall 2024" />
@@ -20,9 +20,9 @@
 <meta property="og:site_name" content="IS445 - Data Viz - BCU/BCG" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Web dev with Streamlit + HuggingFace" />
+<meta property="twitter:title" content="Web dev with Streamlit + HuggingFace; Considering your audience" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"This is the course website for IS445-BCU/BCG in Fall 2024","headline":"Web dev with Streamlit + HuggingFace","url":"http://localhost:4009/is445_bcubcg_fall2024/week11/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"This is the course website for IS445-BCU/BCG in Fall 2024","headline":"Web dev with Streamlit + HuggingFace; Considering your audience","url":"http://localhost:4009/is445_bcubcg_fall2024/week11/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -121,18 +121,18 @@
     <div class="container">
         <div class="columns">
             <div class="column is-two-thirds">
-                <h1 id="web-dev-with-streamlit--huggingface">Web dev with Streamlit + HuggingFace</h1>
+                <h1 id="web-dev-with-streamlit--huggingface-considering-your-audience">Web dev with Streamlit + HuggingFace; Considering your audience</h1>
 
-<p>Today we’ll cover a brief intro of <a href="https://streamlit.io/">Streamlit</a> on <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">HuggingFace Spaces</a>and web development in general.</p>
+<p>Starting to develop Streamlit apps for hosting on HuggingFace.</p>
 
-<h2 id="extra-files">Extra files</h2>
-
-<p>Full corgi dataset available <a href="/is445_bcubcg_fall2024/week11/corg/corgiData_countries_full_2020.json">here</a>.</p>
+<p>Viz for self/peers/public.</p>
 
 <h2 id="optional-reading-list">Optional reading list</h2>
 
 <ol>
-  <li><a href="https://streamlit.io/">Streamlit docs</a></li>
+  <li><a href="https://medium.com/multiple-views-visualization-research-explained/same-data-multiple-perspectives-curse-of-knowledge-in-visual-data-communication-d827c381f936">Same Data, Multiple Perspectives</a></li>
+  <li><a href="https://serialmentor.com/dataviz/telling-a-story.html">FDV, Ch. 29: Telling a story and making a point</a></li>
+  <li><a href="https://streamlit.io/">Streamlit docs</a> - in particular the <a href="https://docs.streamlit.io/get-started/fundamentals/main-concepts">the Main Concepts </a> and  <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">Make an App</a> tutorials, and the docs for <a href="https://docs.streamlit.io/develop/api-reference/text">text</a>, <a href="https://docs.streamlit.io/develop/api-reference/layout">layout</a> and <a href="https://docs.streamlit.io/develop/api-reference/media/st.image">image</a> API elements</li>
   <li><a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a></li>
   <li><a href="https://altair-viz.github.io/gallery/index.html">Altair Docs</a> - in particular <a href="https://altair-viz.github.io/user_guide/data.html#including-index-data">Including Indexes</a>, <a href="https://altair-viz.github.io/altair-tutorial/notebooks/06-Selections.html">Interactivity &amp; Selections</a>, <a href="https://altair-viz.github.io/gallery/multiline_tooltip.html#multi-line-tooltip">Multi-line tooltips</a>, <a href="https://altair-viz.github.io/user_guide/interactions.html#bindings-selections-conditions-making-charts-interactive">Interactive Binning</a>, <a href="https://altair-viz.github.io/user_guide/transform/filter.html#filter-transform">Filter Transformations</a></li>
   <li><a href="https://medium.com/@imanuelyosi/deploy-your-streamlit-web-app-using-hugging-face-7b9cddb11148">This blog post for a walkthrough of deploying a Streamlit space on HuggingFace</a></li>
@@ -142,7 +142,7 @@
             <div class="column">
                 
                 <figure class="image">
-                    <img src="/is445_bcubcg_fall2024/assets/undraw/undraw_Books_l33t.svg">
+                    <img src="/is445_bcubcg_fall2024/assets/undraw/undraw_programmer_imem.svg">
                 </figure>
                 
             </div>
@@ -164,7 +164,7 @@
                 <span class="icon is-large"><i class="fas fa-3x fa-chalkboard-teacher"></i></span>
             </figure>
             <div class="media-content">
-                <p><a href="/is445_bcubcg_fall2024/week11/lecture10p1.html">Lecture 10.1 - Publishing & Validation</a></p><p>More about publishing and validation, and Jekyll+vega-lite+Altair</p>
+                <p><a href="/is445_bcubcg_fall2024/week11/lecture09p1.html">Lecture 9.1 - Viz audience</a></p><p>Considerations of audience</p>
             </div>
         </article>
         
@@ -173,7 +173,7 @@
                 <span class="icon is-large"><i class="fas fa-3x fa-chalkboard-teacher"></i></span>
             </figure>
             <div class="media-content">
-                <p><a href="/is445_bcubcg_fall2024/week11/lecture10p2.html">Lecture 10.2 - A bit more info about Streamlit + HuggingFace</a></p><p>Streamlit HuggingFace Spaces</p>
+                <p><a href="/is445_bcubcg_fall2024/week11/lecture09p2.html">Lecture 9.2 - Final Project Info</a></p><p>Review about final projects</p>
             </div>
         </article>
         
@@ -182,7 +182,7 @@
                 <span class="icon is-large"><i class="fas fa-3x fa-chalkboard-teacher"></i></span>
             </figure>
             <div class="media-content">
-                <p><a href="/is445_bcubcg_fall2024/week11/lecture10x.html">Lecture 10.x extras - more with Vega-lite</a></p><p>More with vega-lite</p>
+                <p><a href="/is445_bcubcg_fall2024/week11/lecture09p3.html">Lecture 9.3 - Streamlit & HuggingFace Introduction; VSCode</a></p><p>Streamlit, HuggingFace, VSCode ecosystem</p>
             </div>
         </article>
         
@@ -205,8 +205,8 @@
             <div class="media-content">
                 <p>
                   
-                     <a href="https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week11/prepMaterials">Prep Streamlit App Files, Week 11</a>		    
-                  
+                     <a href="../nbv.html?notebook_name=%2Fis445_bcubcg_fall2024%2Fweek11%2FinClass_week10.ipynb">In class notebook, Week 10</a> - (<a href="/is445_bcubcg_fall2024/week11/inClass_week10.ipynb">download</a>)
+		          
                 </p>
                 <p>
                     In class notebook
@@ -231,17 +231,139 @@
             <div class="media-content">
                 <p>
                   
-                     <a href="https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week11/inClass">In class Streamlit App, Week 11</a>		    
-                  
+                     <a href="../nbv.html?notebook_name=%2Fis445_bcubcg_fall2024%2Fweek11%2Fprep_notebook_week10.ipynb">Prep notebook, Week 10</a> - (<a href="/is445_bcubcg_fall2024/week11/prep_notebook_week10.ipynb">download</a>)
+		          
                 </p>
                 <p>
-                    Updating storage of Streamlit files in class
+                    In class notebook
                 </p>
             </div>
 	    
 	    
 	    
           
+	    
+
+	    
+         </article>
+        
+        <article class="media">
+	  
+	  
+          
+            <figure class="media-left">
+                <span class="icon is-large"><i class="fas fa-3x fa-chart-line"></i></span>
+            </figure>
+            <div class="media-content">
+                <p>
+                  
+                  <!--
+                     <a href="%2Fis445_bcubcg_fall2024%2Fweek11%2Fprep_script_week10.py">Prep script file, Week 10</a> 
+                 -->
+                    <a href="https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/blob/main/week11//prep_script_week10.py">Prep script file, Week 10</a> <!-- HERE -->
+                 
+                </p>
+                <p>
+                    In class notebook
+                </p>
+            </div>
+	    
+	    
+	    
+          
+	    
+
+	    
+         </article>
+        
+        <article class="media">
+	  
+	  
+          
+            <figure class="media-left">
+                <span class="icon is-large"><i class="fas fa-3x fa-chart-line"></i></span>
+            </figure>
+            <div class="media-content">
+                <p>
+                  
+                  <!--
+                     <a href="%2Fis445_bcubcg_fall2024%2Fweek11%2FinClass_script_week10.py">In class script file, Week 10</a> 
+                 -->
+                    <a href="https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/blob/main/week11//inClass_script_week10.py">In class script file, Week 10</a> <!-- HERE -->
+                 
+                </p>
+                <p>
+                    In class notebook
+                </p>
+            </div>
+	    
+	    
+	    
+          
+	    
+
+	    
+         </article>
+        
+        <article class="media">
+	  
+	  
+          
+	    
+	    
+          
+	    
+	    <p>
+              <b>Past Notebook:</b> <a href="https://starboard.gg/nb/n9nb6N8">Prep Starboard Notebook</a>
+	    </p>
+	    
+
+	    
+         </article>
+        
+        <article class="media">
+	  
+	  
+          
+	    
+	    
+          
+	    
+	    <p>
+              <b>Past Notebook:</b> <a href="https://starboard.gg/nb/nuXwr0l">Prep Starboard Notebook</a>
+	    </p>
+	    
+
+	    
+         </article>
+        
+        <article class="media">
+	  
+	  
+          
+	    
+	    
+          
+	    
+	    <p>
+              <b>Past Notebook:</b> <a href="https://alpha.iodide.io/notebooks/4399/">Prep Iodide Notebook, Spring 2020</a>
+	    </p>
+	    
+
+	    
+         </article>
+        
+        <article class="media">
+	  
+	  
+          
+	    
+	    
+          
+	    
+	    <p>
+              <b>Past Notebook:</b> <a href="https://starboard.gg/nb/nXvyanN">Prep Starboard Notebook, Fall 2021</a>
+	    </p>
 	    
 
 	    

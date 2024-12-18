@@ -4,13 +4,13 @@ visible: true
 icon: undraw_version_control_9bpv.svg
 notitle: true
 examples:
-  - filename: prep_notebook_week03.ipynb
+  - filename: prep_notebook_week02.ipynb
     type: ipynb
-    title: Prep Notebook, Week 3
+    title: Prep Notebook, Week 2
     description: Prep notebook for this week
-  - filename: inClass_week03.ipynb
+  - filename: inClass_week02.ipynb
     type: ipynb
-    title: In class, Week 3
+    title: In class, Week 2
     description: in class notebook for this week
   - filename: spring2021_prep_notebook_week02.ipynb
     type: ipynb
@@ -21,16 +21,11 @@ examples:
     title: Notebook from past class (2019)
     description: Extra notebook from 2019 class
 data:
-  - filename: littleCorgiInHat.png
+  - filename: building_inventory.csv
     type: dataLink
-    title: Corgi in Hat
-    description: Image of a corgi in a hat
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/littleCorgiInHat.png
-  - filename: stitch_reworked.png
-    type: dataLink
-    title: Stitch Image
-    description: Three-color image of stitch
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/stitch_reworked.png
+    title: Buildings dataset
+    description: Illinois buildings dataset
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
 ---
 
 # Data Storage and Operations

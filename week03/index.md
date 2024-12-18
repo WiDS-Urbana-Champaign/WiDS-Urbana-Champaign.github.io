@@ -4,13 +4,13 @@ visible: true
 icon: undraw_cohort_analysis_stny.svg
 notitle: true
 examples:
-  - filename: prep_notebook_week04.ipynb
+  - filename: prep_notebook_week03.ipynb
     type: ipynb
-    title: Prep Notebook, Week 4
+    title: Prep Notebook, Week 3
     description: Prep notebook for this week
-  - filename: inClass_week04.ipynb
+  - filename: inClass_week03.ipynb
     type: ipynb
-    title: In class notebook, Week 4
+    title: In class notebook, Week 3
     description: Prep notebook for this week
   - filename: fall2019_prep_notebook_furtherExamples_01.ipynb
     type: ipynb
@@ -34,11 +34,16 @@ examples:
     type: ipynb
     title: spring2019_prep_notebook_week03_part2.ipynb
 data:
-  - filename: building_inventory.csv
+  - filename: littleCorgiInHat.png
     type: dataLink
-    title: Buildings dataset
-    description: Illinois buildings dataset
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/building_inventory.csv
+    title: Corgi in Hat
+    description: Image of a corgi in a hat
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/littleCorgiInHat.png
+  - filename: stitch_reworked.png
+    type: dataLink
+    title: Stitch Image
+    description: Three-color image of stitch
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/stitch_reworked.png
 library:
   - filename: palette_colors.py
     type: library

@@ -1,36 +1,45 @@
 ---
 layout: week
 visible: true
-icon: undraw_Books_l33t.svg
+icon: undraw_programmer_imem.svg
 notitle: true
 examples:
-  - filename: prepMaterials
-    type: iodide
-    title: Prep Streamlit App Files, Week 11
+  - filename: inClass_week10.ipynb
+    type: ipynb
+    title: In class notebook, Week 10
     description: In class notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week11/prepMaterials
-  - filename: InClass
-    type: iodide
-    title: In class Streamlit App, Week 11
-    description: Updating storage of Streamlit files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week11/inClass
-  # - filename: inClass_script_week11.py
-  #   type: py
-  #   title: In class script file, Week 10
-  #   description: In class notebook
-  # - filename: prep-repo
-  #   type: iodide
-  #   title: Prep online_cv file, Week 10
-  #   description: We'll be building toward a webpage like <a href="https://jnaiman.github.io/online_cv_public/">this</a> today using <a href="https://jekyllrb.com/">Jekyll</a>+<a href="https://altair-viz.github.io/index.html">Altair</a>. 
-  #   link: https://github.com/jnaiman/online_cv_spring2023
-  # - filename: inClass_week10.ipynb
-  #   type: ipynb
-  #   title: In Class Notebook, Week 10
-  #   description: In class notebook
-  # - filename: prep_notebook_week10.ipynb
-  #   type: ipynb
-  #   title: Prep Notebook, Week 10
-  #   description: Prep notebook for this week
+  - filename: prep_notebook_week10.ipynb
+    type: ipynb
+    title: Prep notebook, Week 10
+    description: In class notebook
+  - filename: prep_script_week10.py
+    type: py
+    title: Prep script file, Week 10
+    description: In class notebook
+  - filename: inClass_script_week10.py
+    type: py
+    title: In class script file, Week 10
+    description: In class notebook
+  - filename: prep_notebook_week09_fall2022
+    type: iodidePast
+    title: Prep Starboard Notebook, Fall 2023
+    description: Prep Starboard Notebook
+    link: https://starboard.gg/nb/n9nb6N8
+  - filename: prep_notebook_week10_fall2022
+    type: iodidePast
+    title: Extra Starboard Fall 2023 - Dashboarding
+    description: Prep Starboard Notebook
+    link: https://starboard.gg/nb/nuXwr0l
+  - filename: prep_notebook_week11
+    type: iodidePast
+    title: Previous class notebook
+    description: Prep Iodide Notebook, Spring 2020
+    link: https://alpha.iodide.io/notebooks/4399/
+  - filename: prep_notebook_week10_fall2021
+    type: iodidePast
+    title: Previous class notebook
+    description: Prep Starboard Notebook, Fall 2021
+    link: https://starboard.gg/nb/nXvyanN
 data:
   - filename: mobility.csv
     type: dataLink
@@ -39,21 +48,18 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# Web dev with Streamlit + HuggingFace
+# Web dev with Streamlit + HuggingFace; Considering your audience
 
-Today we'll cover a brief intro of [Streamlit](https://streamlit.io/) on [HuggingFace Spaces](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit)and web development in general.
+Starting to develop Streamlit apps for hosting on HuggingFace.
 
- 
-## Extra files
-
-
-Full corgi dataset available [here](corg/corgiData_countries_full_2020.json).
-
+Viz for self/peers/public.
 
 
 ## Optional reading list
 
- 1. <a href="https://streamlit.io/">Streamlit docs</a>
- 2. <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a>
- 3. <a href="https://altair-viz.github.io/gallery/index.html">Altair Docs</a> - in particular <a href="https://altair-viz.github.io/user_guide/data.html#including-index-data">Including Indexes</a>, <a href="https://altair-viz.github.io/altair-tutorial/notebooks/06-Selections.html">Interactivity & Selections</a>, <a href="https://altair-viz.github.io/gallery/multiline_tooltip.html#multi-line-tooltip">Multi-line tooltips</a>, <a href="https://altair-viz.github.io/user_guide/interactions.html#bindings-selections-conditions-making-charts-interactive">Interactive Binning</a>, <a href="https://altair-viz.github.io/user_guide/transform/filter.html#filter-transform">Filter Transformations</a>
- 4. <a href="https://medium.com/@imanuelyosi/deploy-your-streamlit-web-app-using-hugging-face-7b9cddb11148">This blog post for a walkthrough of deploying a Streamlit space on HuggingFace</a>
+ 1. <a href="https://medium.com/multiple-views-visualization-research-explained/same-data-multiple-perspectives-curse-of-knowledge-in-visual-data-communication-d827c381f936">Same Data, Multiple Perspectives</a> 
+ 2. <a href="https://serialmentor.com/dataviz/telling-a-story.html">FDV, Ch. 29: Telling a story and making a point</a> 
+ 3. <a href="https://streamlit.io/">Streamlit docs</a> - in particular the <a href="https://docs.streamlit.io/get-started/fundamentals/main-concepts">the Main Concepts </a> and  <a href="https://docs.streamlit.io/get-started/tutorials/create-an-app">Make an App</a> tutorials, and the docs for <a href="https://docs.streamlit.io/develop/api-reference/text">text</a>, <a href="https://docs.streamlit.io/develop/api-reference/layout">layout</a> and <a href="https://docs.streamlit.io/develop/api-reference/media/st.image">image</a> API elements
+ 4. <a href="https://huggingface.co/docs/hub/en/spaces-sdks-streamlit">Streamlit on HuggingFace</a>
+ 5. <a href="https://altair-viz.github.io/gallery/index.html">Altair Docs</a> - in particular <a href="https://altair-viz.github.io/user_guide/data.html#including-index-data">Including Indexes</a>, <a href="https://altair-viz.github.io/altair-tutorial/notebooks/06-Selections.html">Interactivity & Selections</a>, <a href="https://altair-viz.github.io/gallery/multiline_tooltip.html#multi-line-tooltip">Multi-line tooltips</a>, <a href="https://altair-viz.github.io/user_guide/interactions.html#bindings-selections-conditions-making-charts-interactive">Interactive Binning</a>, <a href="https://altair-viz.github.io/user_guide/transform/filter.html#filter-transform">Filter Transformations</a>
+ 6. <a href="https://medium.com/@imanuelyosi/deploy-your-streamlit-web-app-using-hugging-face-7b9cddb11148">This blog post for a walkthrough of deploying a Streamlit space on HuggingFace</a>
