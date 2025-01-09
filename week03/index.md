@@ -51,7 +51,7 @@ library:
     description: Python library, save to notebook folder or modify your path if you know how to do that
 ---
 
-# Types of Viz and Choosing Colors
+# Types of Viz and Choosing Colors & Image Data
 
 This week, we will cover a bit about colors, and more about data transformations, and how we can
 choose colors and transforms to better suit our data.
@@ -70,8 +70,10 @@ Note there are a variety of notebooks from previous iterations of this course li
 
 ## Optional Reading List
 
- 1. VAD, Ch. 10: Map Color and Other Channels 
- 2. <a href="https://serialmentor.com/dataviz/color-basics.html">FDV, Ch. 4: Color scales</a> 
- 3. VAD, Ch. 5: Marks and Channels 
- 4. <a href="https://www.csc2.ncsu.edu/faculty/healey/PP/">Perception in Visualization (pay extra attention to the parts about color)</a>  
- 5. <a href="https://jiffyclub.github.io/palettable/#documentation">Palettable Docs</a>
+1. VAD, Ch. 10: Map Color and Other Channels 
+2. <a href="https://serialmentor.com/dataviz/color-basics.html">FDV, Ch. 4: Color scales</a> 
+3. VAD, Ch. 5: Marks and Channels 
+4. <a href="https://www.csc2.ncsu.edu/faculty/healey/PP/">Perception in Visualization (pay extra attention to the parts about color)</a>  
+5. <a href="https://jiffyclub.github.io/palettable/#documentation">Palettable Docs</a> 
+6. <a href="https://serialmentor.com/dataviz/image-file-formats.html">FDV, Ch. 27: Understanding the most commonly used image file formats</a> 
+7. <a href="https://serialmentor.com/dataviz/aesthetic-mapping.html">FDV, Ch. 2: Visualizing data: Mapping data onto aesthetics</a>
