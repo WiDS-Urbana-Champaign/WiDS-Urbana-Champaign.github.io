@@ -4,21 +4,31 @@ visible: true
 icon: undraw_programmer_imem.svg
 notitle: true
 examples:
-  - filename: inClass_week10.ipynb
+  - filename: inClass_week11.ipynb
     type: ipynb
-    title: In class notebook, Week 10
+    title: In class notebook, Week 11
     description: In class notebook
-  - filename: prep_notebook_week10.ipynb
+  - filename: prep_notebook_week11.ipynb
     type: ipynb
-    title: Prep notebook, Week 10
+    title: Prep notebook, Week 11
     description: In class notebook
+  - filename: prepJekyll
+    type: iodide
+    title: Prep Jekyll Files, Week 11
+    description: In class notebook
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/main/week11/prepJekyll
+  - filename: inClassJekyll
+    type: iodide
+    title: In class Jekyll Files, Week 11
+    description: Updating storage of Jekyll files in class
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/master/week11/inClassJekyll
   - filename: prep_script_week10.py
     type: py
-    title: Prep script file, Week 10
+    title: Prep script file, Week 11
     description: In class notebook
   - filename: inClass_script_week10.py
     type: py
-    title: In class script file, Week 10
+    title: In class script file, Week 11
     description: In class notebook
   - filename: prep_notebook_week09_fall2022
     type: iodidePast
