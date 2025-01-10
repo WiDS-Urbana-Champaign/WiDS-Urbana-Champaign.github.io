@@ -1,115 +1,41 @@
-<!doctype html>
-<html>
-  <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+---
+title: Lecture 10.1 - Publishing with Jekyll Infrastructure
+layout: lecture
+description: >-
+ Publishing your viz, vega-lite with Altair in a Jekyll page
+date: 2022-10-25
+---
 
-<title>Lecture 11.1 - More on Publishing & Jekyll Infrastructure</title>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reset.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/theme/white.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.11.2/css/font-awesome.min.css">
-
-<!-- Theme used for syntax highlighting of code -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/markdown/markdown.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/highlight/highlight.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/notes/notes.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/math/math.js"></script>
-
-
-
-</style>
-
-  <link rel="stylesheet/less" type="text/css" href="/is445_obuobg_spring2025/assets/styles.less" />
-  </head>
-
-  <body>
-    <div class="reveal">
-      <div class="slides">
-          <section class="titleslide">
-              <h1>Lecture 11.1 - More on Publishing & Jekyll Infrastructure</h1>
-              <h2>Jill Naiman</h2>
-              <h2>Data Visualization - Spring 2025</h2>
-          </section>
-        <section data-markdown
-           data-separator="^\n---\n"
-           data-separator-vertical="^\n----\n">
-          <script type="text/template">
 ## Last Week
 
-<img src='../week11/images/week11.png'>
+<img src='../week08/images/week09.png'>
 
 notes:
 
-Last week we practiced using Altair in Streamlit apps and also did a few things with widgets in Streamlit.
-
-We also talked a bit about validation techniques and general places to publish on the web.
+Before break we did some stuff with altair.
 
 ---
 
 ## This week
 
-<img src='images/week12.png'>
+<img src='images/week10.png'>
 
 notes:
 
-Today we'll move on from Streamlit apps to building some Jekyll webpages.
+This week we'll continue on with some more complex things with Altair, as well as start to look some ways to publish things, specifically with Jekyll webpages (which you set up as a Lab a few weeks ago).
 
-We'll also talk a bit more about publishing for the web, with a focus on Jekyll
-
----
-
-<br/>
-<br/>
-<br/>
-
-## Reminder: NO extensions for Final Project
-
----
-
-<br/>
-<br/>
-<br/>
-
-## Reminder: Group sign ups will close Nov 11th
-
----
-
-## Notes on the last two weeks of class
-
-Weeks 15 & 16 will have some pre-recorded materials for the Quizzes (and extra credit assignments).
-
-There will be short lectures and the rest of the time we'll have space to work on your Final Projects (as a group or on your own).
-
-notes:
-IF ONLINE: you can stay in the main room, or there will be breakout rooms for you as well!
-
----
-
-## Going further with Streamlit
-
-Other fun things:
-  * [Embed Streamlit apps in webpages](https://huggingface.co/docs/hub/en/spaces-sdks-streamlit#embed-streamlit-spaces-on-other-webpages)
-  * [Chat apps & LLMs](https://docs.streamlit.io/develop/tutorials/llms)
-  * [Linking to external data sources](https://docs.streamlit.io/develop/tutorials/databases)
 
 ---
 
 ## Today
-
+ * More with Altair
  * Publishing
    * Jekyll
    * Github Pages
-   * Circle back to Streamlit (if time, might be next week)
    
 notes:
 
-We might have time to circle back to more complex stuff with Streamlit, but we'll start with Jekyll stuff since you'll need that for HW6.
+**start off with Altair! up to corgi geo stuff (but point to as part of extra videos)**
 
 ---
 
@@ -654,40 +580,4 @@ what are the limits to data size in vega-lite and the web browser?
 
 notes:
 **go to Jekyll tour notes**
-
-
-          </script>
-        </section>
-      </div>
-    </div>
-<script>
-    // More info about config & dependencies:
-    // - https://github.com/hakimel/reveal.js#configuration
-    // - https://github.com/hakimel/reveal.js#dependencies
-    Reveal.initialize({
-        fragments: true,
-        fragmentInURL: true,
-        hash: true,
-        width: 1024,
-        height: 768,
-        margin: 0.02,
-        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
-        dependencies: [
-            { src: 'https://cdn.jsdelivr.net/npm/reveald3@1.5.5/reveald3.js'}
-        ],
-		keyboard: {
-		},
-        center: false,
-        transition: 'none',
-        backgroundTransition: 'none',
-        reveald3: {
-            runLastState: false
-        }
-    });
-</script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
-
-
-  </body>
-</html>
 

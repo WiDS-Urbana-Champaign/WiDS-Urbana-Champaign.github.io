@@ -1,11 +1,16 @@
 ---
 layout: week
 visible: true
-icon: undraw_Taken_re_yn20.svg
+icon: undraw_going_up_ttm5.svg
 notitle: true
+examples:
+  - filename: inClass_week10.ipynb
+    type: ipynb
+    title: In Class Notebook, Week 10
+    description: In Class Notebook
 ---
 
-# Placeholder -- more with Altair!
+# More with Altair & Intro to Jekyll
 
 
 
