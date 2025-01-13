@@ -1,5 +1,5 @@
 ---
-title: Lecture 9.1 - Viz audience
+title: Lecture 11.1 - Viz audience
 layout: lecture
 description: >-
  Considerations of audience
@@ -9,7 +9,7 @@ date: 2023-10-17
 
 ## Last Week
 
-<img src="../week09/images/week09.png">
+<img src="../week10/images/week10.png">
 
 notes:
 reminder of where we are!  
