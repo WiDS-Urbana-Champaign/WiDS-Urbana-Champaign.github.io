@@ -58,7 +58,7 @@ data:
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv
 ---
 
-# Web dev with Streamlit + HuggingFace; Considering your audience
+# Considering your audience; Jekyll Web Dev & Streamlit
 
 Starting to develop Streamlit apps for hosting on HuggingFace.
 

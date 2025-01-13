@@ -1,8 +1,8 @@
 ---
-title: Lecture 10.1 - Publishing & Validation
+title: Lecture 12.1 - Publishing & Validation
 layout: lecture
 description: >-
- More about publishing and validation, and Jekyll+vega-lite+Altair
+ More about publishing and validation, and Streamlit+Altair
 date: 2023-10-31
 ---
 
