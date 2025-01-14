@@ -4,28 +4,16 @@ visible: true
 icon: undraw_good_doggy_4wfq.svg
 notitle: true
 examples:
-  - filename: inClass_week12.ipynb
-    type: ipynb
-    title: In Class Notebook, Week 12
-    description: In class notebook
-  - filename: prep_notebook_week12_part1.ipynb
-    type: ipynb
-    title: Prep Notebook, Week 12, Part 1
-    description: Prep notebook for this week
-  - filename: prep_notebook_week12_part2.ipynb
-    type: ipynb
-    title: Prep Notebook, Week 12, Part 2
-    description: Prep notebook for this week
   - filename: prepJekyll
     type: iodide
-    title: Prep Jekyll Files, Week 12
+    title: Prep Streamlit Files, Week 13
     description: In class notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week12/prepJekyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/main/week13/prepJekyll
   - filename: inClassJekyll
     type: iodide
-    title: In class Jekyll Files, Week 12
+    title: In class Streamlit Files, Week 13
     description: Updating storage of Jekyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week12/inClassJekyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/master/week13/inClassJekyll
 data:
   - filename: mobility.csv
     type: dataLink
