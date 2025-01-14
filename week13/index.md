@@ -4,16 +4,16 @@ visible: true
 icon: undraw_good_doggy_4wfq.svg
 notitle: true
 examples:
-  - filename: prepJekyll
+  - filename: prepStreamlit
     type: iodide
     title: Prep Streamlit Files, Week 13
     description: In class notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/main/week13/prepJekyll
-  - filename: inClassJekyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/main/week13/prepStreamlit
+  - filename: inClassStreamlit
     type: iodide
     title: In class Streamlit Files, Week 13
     description: Updating storage of Jekyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/master/week13/inClassJekyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/master/week13/inClassStreamlit
 data:
   - filename: mobility.csv
     type: dataLink
