@@ -23,7 +23,7 @@ This lecture covers scientific data viz, specifically things that will be covere
 
 So far: Spatial encoding is chosen by the designer
 
-<img src="images/circlesTree.png" width="500"/>
+<img src="images/sciviz/circlesTree.png" width="500"/>
 
 notes: so far, a lot of our placement of objects has been up to us
 
@@ -33,7 +33,7 @@ notes: so far, a lot of our placement of objects has been up to us
 
 Sci Viz: Spatial encoding is provided in the data
 
-<img src="images/orf2D.png" width="500"/>
+<img src="images/sciviz/orf2D.png" width="500"/>
 
 notes: but with sci viz, we are usually dealing with spatial data - so we are told by the 
 science where we should be placing things in 3D space
@@ -49,7 +49,7 @@ where each data point should be placed
  1. Geometry
   * Volumetric Fields
 
-<img src="images/smoke.gif" width="800"/>
+<img src="images/sciviz/smoke.gif" width="800"/>
 
 note: there are different kinds of spatial datasets
 
@@ -66,7 +66,7 @@ The left plot shows the simulation data points, the middle plot shows how they a
  1. Geometry
    * Polygons
 
-<img src="images/wheel.gif" width="800"/>
+<img src="images/sciviz/wheel.gif" width="800"/>
 
 notes: another thing you will see a lot is 3-dimensional surfaces like the one shown here
 
@@ -83,7 +83,7 @@ Instead of specifying data at each point in the 3D volume, we are specifying the
    * Polygons
    * Point Clouds
 
-<img src="images/cme.gif" width="800"/>
+<img src="images/sciviz/cme.gif" width="800"/>
 
 notes:
 
@@ -99,7 +99,7 @@ FYI this is a non-final render of some data from the "Solar Super Storms" movie 
 
  2. Volumetric Fields
 
-<img src="images/redDropShort.gif" width="600"/>
+<img src="images/sciviz/redDropShort.gif" width="600"/>
 
 notes:
 How do you represent something like this with data?
@@ -115,7 +115,7 @@ You need vectors to describe things like motion (velocity).
  2. Volumetric Fields
     * Scalar
 
-<img src="images/grids.gif" width="600"/>
+<img src="images/sciviz/grids.gif" width="600"/>
 
 notes:
 This sequence reveals the underlying 3D grids of several scalar fields including:
@@ -139,7 +139,7 @@ Basically, you can think of the centers of each cubes specifying where the data 
  2. Volumetric Fields
     * Scalar
 
-<img src="images/sapasmons.jpg" width="500"/>
+<img src="images/sciviz/sapasmons.jpg" width="500"/>
 
 notes:
 Fields can be 2D or 3D. Images can be used as 2D data fields.
@@ -158,7 +158,7 @@ AVL used this image from the Magellan satellite to create a "displacement map" f
 
 [Windy Weather Map](https://www.windy.com)
 
-<img src="images/maria.png" width="600"/>
+<img src="images/sciviz/maria.png" width="600"/>
 
 notes:
 Windy is an interactive wind velocity map. It's always interesting to look at, but especially during hurricane season. I captured this image as Hurricane Maria flirted with the East coast in Sept 2017.
@@ -183,7 +183,7 @@ Its even possible to do this in real time: [Earth map](https://earth.nullschool.
     * Scalar
     * Vector
 
-<img src="images/streamlines.gif" width="600"/>
+<img src="images/sciviz/streamlines.gif" width="600"/>
 
 notes:
 In this visualization we're seeing 3D velocity streamlines.
@@ -202,7 +202,7 @@ Also from solar super storms
     * Uniform or non-uniform
     * Rectangular or non-rectangular
 
-<img src="images/gridTypes.gif" width="400"/>
+<img src="images/sciviz/gridTypes.gif" width="400"/>
 
 notes:
 Adaptive mesh refinement is an especially efficient 3D storage for datatypes that have small areas of high detail.
@@ -230,7 +230,7 @@ This is why dealing with scientific data can be a little tricky - it can be hard
 
  * Dots with scale
 
-<img src="images/pointCloud.gif" width="600"/>
+<img src="images/sciviz/pointCloud.gif" width="600"/>
 
 notes: some other, less used data types include things like dots with scale
 
@@ -241,7 +241,7 @@ notes: some other, less used data types include things like dots with scale
  * Dots with scale
  * Sprites
 
-<img src="images/energy.gif" width="600"/>
+<img src="images/sciviz/energy.gif" width="600"/>
 
 notes:
 All the moving dots in this video are represented by a gaussian splat image. You can see how they are adjusted to be different size and color (the important things are the purple ones)
@@ -255,7 +255,7 @@ FYI this is a little pre-final version of an upcoming movie called "Birth of Pla
  * Dots with scale
  * Sprites
 
-<img src="images/energyLetters.gif" width="600"/>
+<img src="images/sciviz/energyLetters.gif" width="600"/>
 
 notes:
 But gaussian blur isn't the only way to put a sprite on a point. This version used text instead. (purple q's instead of sprites)
@@ -268,7 +268,7 @@ But gaussian blur isn't the only way to put a sprite on a point. This version us
  * Sprites
  * Meshing
 
-<img src="images/canup.gif" width="600"/>
+<img src="images/sciviz/canup.gif" width="600"/>
 
 notes:
 This is a test AVL worked on with an SPH "smooth particle hydrodynamics" dataset where we created a surface across points. The surface was generated at a density threshold - aka, it was an infinitely thin shell shrinkwrapped onto all particles that were above a certain density.
@@ -283,7 +283,7 @@ We won't get to play as much with surfaces ourselves, BUT if you were able to in
 
  * Vector lines with width, can be filled
 
-<img src="images/platecarree.png" width="600"/>
+<img src="images/sciviz/platecarree.png" width="600"/>
 
 notes:
 We're already familiar with this data from MAPS week.
@@ -295,7 +295,7 @@ We're already familiar with this data from MAPS week.
  * Vector lines with width, can be filled
  * Direct rendering of architectural schematics
 
-<img src="images/lsst.gif" width="600"/>
+<img src="images/sciviz/lsst.gif" width="600"/>
 
 notes:
 Sometimes you will be given a description of geometric objects that you need to construct.
@@ -308,7 +308,7 @@ Sometimes you will be given a description of geometric objects that you need to 
  * Direct rendering of architectural schematics
  * Direct rendering of 3D scans (pre-meshed)
 
-<img src="images/mammoth.gif" width="600"/>
+<img src="images/sciviz/mammoth.gif" width="600"/>
 
 notes:
 Sometimes you will get something that was originally generated from a point cloud but has already been meshed. Domain experts sometimes have access to better meshing tools, particularly in the realm of 3D scanning.
@@ -319,7 +319,7 @@ Sometimes you will get something that was originally generated from a point clou
 
  * Slice
 
-<img src="images/mri.png" width="600"/>
+<img src="images/sciviz/mri.png" width="600"/>
 
 notes:
 Today we'll play with this brain scan data - this is only a single image slice out of a 3D gridded dataset.
@@ -333,7 +333,7 @@ Even if you're not showing your final visualization as a slice, this is a good s
  * Slice
  * Isosurface
 
-<img src="images/isocontours.png" width="400"/>
+<img src="images/sciviz/isocontours.png" width="400"/>
 
 notes:
 You have probably seen this type of topographic map where lines indicate elevation. These lines are called isocontours. You can combine isocontours to get isosurfaces.
@@ -345,7 +345,7 @@ You have probably seen this type of topographic map where lines indicate elevati
  * Slice
  * Isosurface
 
-<img src="images/isosurfaces.png" width="700"/>
+<img src="images/sciviz/isosurfaces.png" width="700"/>
 
 notes:
 This is an isosurface of a tornado-forming storm cloud, and another of a supernova that the scientist called "the walnut".
@@ -360,7 +360,7 @@ Isosurfaces can make analysis easier.
  * Isosurface
  * 3D Volumetric Rendering
 
-<img src="images/bock.gif" width="600"/>
+<img src="images/sciviz/bock.gif" width="600"/>
 
 notes:
 But of course, you can always render the volume as a volume too. This is a volumetric tornado-forming storm cloud by Dave Bock who also works at the NCSA. 
@@ -373,7 +373,7 @@ While this looks similar to the volume rendering at the beginning of class its a
 
  * Arrow glyphs
 
-<img src="images/arrows.gif" width="700"/>
+<img src="images/sciviz/arrows.gif" width="700"/>
 
 notes:
 vectors are often represented with arrows at specific points
@@ -388,7 +388,7 @@ I'm actually not sure what this is showing, but my guess is magnetic field lines
  * Streamlines / Streamtubes
     * Particle Advection!
 
-<img src="images/tornado.gif" width="600"/>
+<img src="images/sciviz/tornado.gif" width="600"/>
 
 notes:
 But you can also show streamlines, which track vectors across the whole grid. Particle advection is releasing massless particles into a vector field, letting the vectors push them around, and tracing their progress.
