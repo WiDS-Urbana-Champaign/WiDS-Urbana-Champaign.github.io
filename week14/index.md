@@ -6,24 +6,14 @@ notitle: true
 examples:
   - filename: In Class Streamlit Files
     type: iodide
-    title: In class Streamlit materials, Week 13
+    title: In class Streamlit materials, Week 14
     description: Updating storage of Streamlit files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week13/inClassStreamlit
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/master/week14/inClassStreamlit
   - filename: Prep Streamlit Files
     type: iodide
-    title: Prep Streamlit materials, Week 13
+    title: Prep Streamlit materials, Week 14
     description: Updating storage of Streamlit files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week13/prepStreamlit
-  - filename: In Class Jekyll Files
-    type: iodide
-    title: In class Jekyll materials, Week 13
-    description: Updating storage of Jekyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/master/week13/inClassJekyll
-  - filename: prepJekyll
-    type: iodide
-    title: Prep Jekyll Files, Week 12
-    description: In class notebook
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2024/tree/main/week13/prepJekyll
+    link: https://github.com/UIUC-iSchool-DataViz/is445_obuobg_spring2025/tree/master/week14/prepStreamlit
 data:
   - filename: mobility.csv
     type: dataLink
@@ -43,7 +33,7 @@ data:
 
 ---
 
-# Intro to SciViz & More with Streamlit/Jekyll
+# Guest Lecture from NCSA AVL on SciViz & More with Streamlit/Jekyll
 
 We do a few more things with Streamlit and Jekyll.
 
