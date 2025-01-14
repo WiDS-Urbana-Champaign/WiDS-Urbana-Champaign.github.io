@@ -297,7 +297,7 @@ There are lots of ways to combine types of network visualizations like this.
 <img src="https://wordcloudapi.com/word_cloud.png" width="600px">
 
 notes:
-We'll be focusing a lot on ways of representing text occurances in Python with histograms and wordclouds and then if we have time we'll circle back to networks
+We'll be focusing a lot on ways of representing text occurrences in Python with histograms and wordclouds and then if we have time we'll circle back to networks
 
 ---
 
