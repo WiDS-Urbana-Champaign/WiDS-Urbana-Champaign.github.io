@@ -1,11 +1,45 @@
----
-title: Lecture 14.3 - WordClouds & networks (for Quiz and EC)
-layout: lecture
-description: >-
- How to analyze text data, viz of networks, and where to go from here.
-date: 2024-12-04
----
+<!doctype html>
+<html>
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+<title>Lecture 16.2 - WordClouds & networks (for Quiz and EC)</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/theme/white.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.11.2/css/font-awesome.min.css">
+
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/notes/notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/math/math.js"></script>
+
+
+
+</style>
+
+  <link rel="stylesheet/less" type="text/css" href="/is445_obuobg_spring2025/assets/styles.less" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+          <section class="titleslide">
+              <h1>Lecture 16.2 - WordClouds & networks (for Quiz and EC)</h1>
+              <h2>Jill Naiman</h2>
+              <h2>Data Visualization - Spring 2025</h2>
+          </section>
+        <section data-markdown
+           data-separator="^\n---\n"
+           data-separator-vertical="^\n----\n">
+          <script type="text/template">
 ## This week
 
  1. Networked & Hierarchical Data
@@ -26,7 +60,7 @@ date: 2024-12-04
  1. Node-link diagrams
  1. Matrix views
 
-<img src="images/compareMatrixNT.png" width="800"/>
+<img src="images/networks/compareMatrixNT.png" width="800"/>
 
 From: <a href="https://www.researchgate.net/publication/258716465_Visualizing_Weighted_Networks_A_Performance_Comparison_of_Adjacency_Matrices_versus_Node-link_Diagrams">this article</a>
 
@@ -42,7 +76,7 @@ This figure here is actually showing the same networked dataset.
  1. Trees
  1. Force-Directed Graphs
 
-<img src="images/circlesTree.png" width="400"/>
+<img src="images/networks/circlesTree.png" width="400"/>
 
 notes:
 These are the primary ways that you would draw a linked node diagram.
@@ -56,7 +90,7 @@ You might have different sizes of symbols, different shapes, or different link o
  1. Trees
  1. Force-Directed Graphs
 
-<img src="images/hairball.png" width="600"/>
+<img src="images/networks/hairball.png" width="600"/>
 
 From: <a href="https://github.com/jcatw/snap-facebook">this GitHub</a>
 
@@ -75,7 +109,7 @@ this is a node-link diagram of this full facebook dataset showing groups of conn
    * can have a direction
    * can have a weight
 
-<img src="images/coldWarLong.jpg" width="800"/>
+<img src="images/networks/coldWarLong.jpg" width="800"/>
 
 notes:
 This is a diagram of some selected military alliances during the Cold War.
@@ -91,7 +125,7 @@ This is a diagram of some selected military alliances during the Cold War.
    * can have a direction
    * can have a weight
 
-<img src="images/geneticNetwork.png" width="800"/>
+<img src="images/networks/geneticNetwork.png" width="800"/>
 
 notes:
 One common use-case for these is genetics. Scientists need visualizations to understand how one gene affects another, either directly OR **indirectly**.
@@ -110,7 +144,7 @@ here is shown an example of how the BRCA genes associated with some forms of bre
  * Always one incoming edge (low density)
  * Discrete, not Continuous
 
-<img src="images/trees.png" width="800"/>
+<img src="images/networks/trees.png" width="800"/>
 
 notes:
 trees have a topology or hierarchy. These are especially good for a *deep* hierarchy.
@@ -127,7 +161,7 @@ The left hand plot has a top-down ordering, while the right-hand plot is ordered
  * Nodes push away from each other by local repulsion force.
  * Forces can be weighted.
 
-<img src="images/forceDirectedGraph.gif" width="450"/>
+<img src="images/networks/forceDirectedGraph.gif" width="450"/>
 
 notes:
 These use simulated forces to push apart what might otherwise look like a mad hairball.
@@ -146,7 +180,7 @@ Note that this means these plots are in a sense "non-deterministic" in that you 
  * Joint or Disjoint
  * Discrete, not Continuous
 
-<img src="images/disjoint.png" width="450"/>
+<img src="images/networks/disjoint.png" width="450"/>
 
 notes:
 These are useful for identifying clusters, finding all possible paths, finding the shortest path, finding all adjacent nodes, finding bridges between unconnected nodes, etc.
@@ -159,7 +193,7 @@ These are useful for identifying clusters, finding all possible paths, finding t
    * Non-deterministic (different every time)
    * Link Density can be an issue when over 3-4 links per node
 
-<img src="images/SocialNetworkAnalysis.png" width="550"/>
+<img src="images/networks/SocialNetworkAnalysis.png" width="550"/>
 
 notes:
 this is a social network graph that looks fine at high resolution, but on this screen is more or less unreadable.
@@ -171,8 +205,8 @@ this is a social network graph that looks fine at high resolution, but on this s
  1. Adjacency Matrix
    * List all values along X AND Y axes
 
-<img src="images/coldWarLong.jpg" width="400"/></td>
-<img src="images/coldWarMatrix.png" width="400"/></td>
+<img src="images/networks/coldWarLong.jpg" width="400"/></td>
+<img src="images/networks/coldWarMatrix.png" width="400"/></td>
 
 notes:
 Matrix views remove occlusion and hairball issues completely. They are preferred for extremely dense data.
@@ -187,7 +221,7 @@ However they do not show topology, and they might be less intuitive to identify 
    * List all values along X AND Y axes
    * Can cut in half along diagonal if non-directional
 
-<img src="images/foldedAdjacencyMatrix.jpg" width="450"/>
+<img src="images/networks/foldedAdjacencyMatrix.jpg" width="450"/>
 
 notes:
 This is sometimes called a "Folded" adjacency matrix
@@ -201,7 +235,7 @@ This is sometimes called a "Folded" adjacency matrix
    * Can cut in half along diagonal if non-directional
    * Color cells by edge weight
 
-<img src="images/brains.png" width="400"/>
+<img src="images/networks/brains.png" width="400"/>
 
 notes:
 Matrix views remove occlusion and hairball issues completely. They are preferred for extremely dense data.
@@ -214,7 +248,7 @@ As you can see by the square plots here - these are supposed to show the network
 
 ## Matrix Views
 
-<img src="images/pokemonTypeChart.png" width="500"/>
+<img src="images/networks/pokemonTypeChart.png" width="500"/>
 
 notes:
 Pokemon type-effectiveness chart yay!
@@ -231,7 +265,7 @@ Notice this is directional - Attackers and Defenders don't have same effect on d
  1. Containment
    1. Treemaps
 
-<img src="images/d3treemap.png" width="500"/>
+<img src="images/networks/d3treemap.png" width="500"/>
 
 notes:
 Another way to look at networked data - treemaps
@@ -251,7 +285,7 @@ This visualization is file size of the D3 visualization library.
    1. Treemaps
    1. Nested Circles
 
-<img src="images/circlePacking.png" width="400"/>
+<img src="images/networks/circlePacking.png" width="400"/>
 
 notes:
 This is also known as circle-packing.
@@ -262,8 +296,8 @@ This is also known as circle-packing.
 
  1. Network and Tree together
 
-<img src="images/grouseFlocks.gif" width="350"/>
-<img src="images/compoundNetwork.png" width="450"/>
+<img src="images/networks/grouseFlocks.gif" width="350"/>
+<img src="images/networks/compoundNetwork.png" width="450"/>
 
 notes:
 Now we're combining a hierarchical nested circle containment WITH linked nodes from our cold war alliances.
@@ -274,13 +308,13 @@ There are lots of ways to combine types of network visualizations like this.
 
 ## An aside: <a href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>
 
-<img src="images/hak1.jpg" width="350"/>
+<img src="images/networks/hak1.jpg" width="350"/>
 
 ---
 
 ## An aside: <a href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>
 
-<img src="images/hak2.jpg" width="350"/>
+<img src="images/networks/hak2.jpg" width="350"/>
 
 ---
 
@@ -304,3 +338,39 @@ We'll be focusing a lot on ways of representing text occurances in Python with h
 <br>
 
 # To Python!
+
+          </script>
+        </section>
+      </div>
+    </div>
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        fragments: true,
+        fragmentInURL: true,
+        hash: true,
+        width: 1024,
+        height: 768,
+        margin: 0.02,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath],
+        dependencies: [
+            { src: 'https://cdn.jsdelivr.net/npm/reveald3@1.5.5/reveald3.js'}
+        ],
+		keyboard: {
+		},
+        center: false,
+        transition: 'none',
+        backgroundTransition: 'none',
+        reveald3: {
+            runLastState: false
+        }
+    });
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+
+
+  </body>
+</html>
+
