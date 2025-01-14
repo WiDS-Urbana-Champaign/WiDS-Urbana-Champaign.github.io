@@ -4,35 +4,30 @@ visible: true
 icon: undraw_monitor_iqpq.svg
 notitle: true
 examples:
-  - filename: In Class Jekyll
-    type: iodide
-    title: In class Jekyll resources, Week 13
-    description: Updating storage of Jekyll files in class
-    link: https://github.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2023/tree/master/week13/inClass
-  - filename: Prep repo
-    type: iodide
-    title: Prep Jekyll, Week 13
-    description: Prep Jekyll file and components
-    link: https://raw.githubusercontent.com/jnaiman/online_cv_public/main/_example_projects/3_more_complex_python_with_altair.md
-  - filename: inClass_week13.ipynb
+  - filename: inClass_week15.ipynb
     type: ipynb
-    title: In class jupyter notebook, Week 13
-    description: Placeholder for in class coding
-  - filename: prep_notebook_week13.ipynb
+    title: SciViz - In class notebook
+    description: Placeholder for in class coding for SciViz
+  - filename: prep_notebook_week15.ipynb
     type: ipynb
-    title: Prep Notebook, Week 13
-    description: Prep notebook for this week
+    title: SciViz - Prep Notebook
+    description: Prep notebook for this week for SciViz
 data:
-  - filename: corgs_per_country_over_time_columns_2020.csv
+  - filename: single_dicom.h5
     type: dataLink
-    title: Corgis per country over time 
-    description: This dataset is from the <a href="http://cardiped.net/">Cardigan Archives</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/grabCorgData_subpages.py">scraped using Beautiful Soup in Python</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/calc_corgData.ipynb">further processed in Python</a> into this form.
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/corgs_per_country_over_time_columns_2020.csv
-  - filename: corgiData_countries_subset_2020.json
+    title: Brain Scan (72Mb)
+    description: MRI scan of a brain
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/single_dicom.h5
+  - filename: galaxyFiles.zip
     type: dataLink
-    title: Subset of full Corgi database 
-    description: This dataset is from the <a href="http://cardiped.net/">Cardigan Archives</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/grabCorgData_subpages.py">scraped using Beautiful Soup in Python</a> and <a href="https://github.com/UIUC-iSchool-DataViz/spring2020/blob/master/week12/corg/calc_corgData.ipynb">further processed in Python</a> into this form.
-    link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/corgiData_countries_subset_2020.json
+    title: Galaxy Particle Simulation files (77Mb)
+    description: Downsampled output files from a particle simulation of a galaxy merger
+    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/galaxyFiles.zip
+  - filename: IsolatedGalaxy.tar.gz
+    type: dataLink
+    title: Isolated Galaxy dataset (292 Mb)
+    description: A single snapshot in time of a grid simulation of an isolated galaxy 
+    link: http://yt-project.org/data/IsolatedGalaxy.tar.gz
 ---
 
 # Guest Lecture from NCSA AVL on SciViz
