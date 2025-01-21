@@ -18,11 +18,6 @@ data:
     title: GDP dataset
     description: GDP dataset from FRED
     link: https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/GDP.csv
-  - filename: stitch_reworked.png
-    type: dataLink
-    title: Stitch Image
-    description: Three-color image of stitch
-    link: https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/stitch_reworked.png
 ---
 
 # Introduction
