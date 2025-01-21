@@ -343,6 +343,8 @@ iSchool writing coaches also offer free consultations.
 # Disruptive behavior
 Behavior that persistently or grossly interferes with classroom activities is considered disruptive behavior and may be subject to disciplinary action. Such behavior inhibits other students’ ability to learn and an instructor’s ability to teach. A student responsible for disruptive behavior may be required to leave class pending discussion and resolution of the problem and may be reported to the Office for Student Conflict Resolution (https://conflictresolution.illinois.edu; conflictresolution@illinois.edu; 333-3680) for disciplinary action.
 
+Do not record voices or take photos of individuals in class without prior consent.  This is inline with the campus' [IRB/human subject research protocols](https://oprs.research.illinois.edu/) regarding data collection for human subjects. 
+
 # Academic Integrity
 
 Please review and reflect on the academic integrity policy of the University of Illinois, http://studentcode.illinois.edu/article1_part4_1-401.html, to which we subscribe. By turning in materials for review, you certify that all work presented is your own and has been done by you independently, or as a member of a designated group for group assignments. 

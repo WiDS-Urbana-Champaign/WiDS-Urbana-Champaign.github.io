@@ -228,14 +228,10 @@ Visualize the results of your group's collective "data".
 
 Don't forget to say hi to each other!
 
-<!--
-* Jamboard 1 (Groups 1-10): https://jamboard.google.com/d/1JdXo144A0BIAb1wzeGU-5p_Sgfp5t3yCtu2hjRLSUnk/edit?usp=sharing
- * Jamboard 2 (Groups 11-20): https://jamboard.google.com/d/1nBi0qz9Dbk_qBJa5F8ClJzW0pB__2PriRWhYThs4UTs/edit?usp=sharing 
-
-**There is a limit of 50 people per jamboard, so make sure you match your breakout group number.**
+Miro Board link: https://miro.com/app/board/uXjVLq47Pvc=/?share_link_id=451051165669
 
 **You must be signed in with your @illinois.edu address.**
--->
+
 
 notes:
 
