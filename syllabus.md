@@ -215,7 +215,7 @@ The breakdown of your grade will be:
  * The *maximum* homework score is fixed at 40% (even with extra credit included).
  * Your lowest homework score will be dropped, however, we will not drop:
    * Homework \#1 (introduction, installations, etc)
-   * Streamlit OR Jekyll Page Homework (Homework \#5 or \#6) -- i.e. you need to do AT LEAST one of these assignments
+   * Streamlit OR Jekyll Page Homework (Homework \#5 or \#6) -- i.e. you need to do AT LEAST one of these assignments (and maybe both, depending on what homework score you are aiming for)
    
 
 
