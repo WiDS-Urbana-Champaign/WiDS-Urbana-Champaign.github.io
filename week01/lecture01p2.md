@@ -5,7 +5,7 @@ description: >-
   What are some of the basics of how we interpret visualizations?  How can we
   describe the process of making choices, understanding our audience, and so
   forth?
-date: 2023-08-24
+date: 2025-01-22
 ---
 
 <br />
