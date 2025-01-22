@@ -2,13 +2,13 @@ instructor:
   name: Jill Naiman
   email: jnaiman@illinois.edu
   office: Online
-  office_hours: TBD
+  office_hours: Tuesdays 10:30am-12pm
 tas:
   -
     name: Guangchun Zheng
     email: gzheng6@illinois.edu
     office: online
-    office_hours: TBD
+    office_hours: Mondays 8am-10am, Thursdays 4-6pm, Fridays 5-7pm
 
 
 course:
@@ -22,7 +22,7 @@ course:
 urls:
   -
     name: Slack
-    url: is445-obuobg-spring2025.slack.com
+    url: https://is445obuobgsp-hnm6590.slack.com
   - 
     name: Canvas
     url: https://canvas.illinois.edu/courses/52731
