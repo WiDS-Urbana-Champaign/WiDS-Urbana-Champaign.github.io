@@ -87,6 +87,8 @@ There is a ~6 hour "time out" for the quiz -- you cannot close and re-open the a
 
 ## Strong suggestion: Use the order on PrairieLearn
 
+![order should be quizzes, then labs, then homeworks](images/plorder.png)
+
 notes:
 so you should do quizzes, then labs, then HWs
 
@@ -698,5 +700,5 @@ You can see that in this higher frequency data, the same sampling rates fall apa
 
 ## Let's try some stuff in Python with tabular data and Pandas!
 
----
+
 
