@@ -530,7 +530,3 @@ a simple cheat is anytime you see the word "density", it's easier to represent w
 
 ---
 
-## Let's try some stuff in Python with image data!
-
----
-

@@ -1,5 +1,5 @@
 ---
-title: Extras, Lecture 2
+title: Extras, Lecture 3
 layout: lecture
 tags:
   - overview
@@ -7,7 +7,7 @@ tags:
   - brain
 description: >-
  More examples of drawing images in 2D; binary representations 
-date: 2020-02-01
+date: 2025-02-05
 ---
 
 <br>
