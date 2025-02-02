@@ -421,7 +421,7 @@ different kinds of color palettes can be used to describe different types of dat
 
 Here is a nice way of mapping out our options.  For example, binary (T/F or Y/N) is pretty easy to encode with 2 colors or luminance.
 
-If we have 3 categories, we can choose different hues for qualatative data.
+If we have 3 categories, we can choose different hues for qualitative data.
 
 If we have sequential data, like height maps we can choose differences in Hues or luminance.
 
@@ -483,9 +483,9 @@ even if we try to make a perceptually uniform colormap, the results are underwhe
 
 ## Ordered: Sequential Colormaps
 
-![](images/blues_discrete.png)
+![](images/colors/blues_discrete.png)
 
-![](images/blues_continuous.png)
+![](images/colors/blues_continuous.png)
 
 notes:
 one thing we can due is choose a hue and change the saturation or luminance -- here luminance
@@ -498,9 +498,9 @@ Here, the hue doesn't change, but the value (luminance) and the saturation do
 
 ## Diverging Colormaps
 
-![](images/spectral_discrete.png)
+![](images/colors/spectral_discrete.png)
 
-![](images/spectral_continuous.png)
+![](images/colors/spectral_continuous.png)
 
 notes:
 this shows you that different colors in the rainbow have different perceived brightness.
@@ -528,7 +528,7 @@ Combinations of color can pick out different features at different scales.
 </div>
 
 notes:
-The differnet colormaps pick out changes at different scales.  The colormap with more hues heighlights the finer details of this simulation, while the colormap with only 2 hues shows off the larger scale structure.
+The differnet colormaps pick out changes at different scales.  The colormap with more hues highlights the finer details of this simulation, while the colormap with only 2 hues shows off the larger scale structure.
 
 ---
 
@@ -751,7 +751,7 @@ Check out [https://www.csc2.ncsu.edu/faculty/healey/PP/](https://www.csc2.ncsu.e
 notes:
 color hue, luminance and saturation make use of different "perception channels" listed here 
 
-there are others that we intuatively use, like position, length, tilt, area, ect
+there are others that we intuitively use, like position, length, tilt, area, ect
 
 These are ordered in terms of which are more effective to use -- i.e. which our brains has a better means of tracking -- for both numerical & ordered categorical data (ordered) and categorcial data that is ordinal (no obvious ordering)
 
@@ -766,7 +766,7 @@ without going into too much detail, this has to do with how different stimuli ma
 
 For example, our sensation of electric shock is far more sensitive than just linear, but brightness is far less sensitive
 
-Length is the most linear -- which is why bar charts are so effective for transfering information!
+Length is the most linear -- which is why bar charts are so effective for transferring information!
 
 ---
 
