@@ -11,7 +11,7 @@ date: 2025-02-13
  * ipywidgets
  * traitlets and IPython/Jupyter
 
-These will build to the viz engine `bqplot` for next week and Javascript in the near future.
+These will build to the viz engine `bqplot` for next week and Altair in the near future (with hints of JavaScript sprinkled in).
 
 ---
 
@@ -99,7 +99,6 @@ I think the slider is V (value)
 
 For the purposes of this class: a widget is a way to use Javascript to make interactive plots without having to learn much Javascript! 
 
-(yet)
 
 ---
 
@@ -223,7 +222,7 @@ We can use the `ipywidgets` library to build out widgets in Jupyter notebooks.
 These widgets can be quite extensive with many different operations;
 additionally, they can have substantial CSS styling.
 
-We've used simple examples before.  For instance, we can create an interactive
+We used simple examples before with our decorators.  For instance, we can create an interactive
 function very easily:
 
 ```#python
