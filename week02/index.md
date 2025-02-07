@@ -20,6 +20,9 @@ examples:
     type: ipynb
     title: Notebook from past class (2019)
     description: Extra notebook from 2019 class
+  - filename: spring2019_prep_notebook_week03_part1.ipynb
+    type: ipynb
+    title: spring2019_prep_notebook_week03_part1.ipynb
 data:
   - filename: building_inventory.csv
     type: dataLink
