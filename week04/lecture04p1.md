@@ -3,7 +3,7 @@ title: Lecture 4.1 - Widgets & Traitlets for Interactivity
 layout: lecture
 description: >-
  The basics of using Traitlets and data binding in visualization.
-date: 2024-09-23
+date: 2025-02-13
 ---
 
 ## Today's Main Topics
