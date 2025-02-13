@@ -3,13 +3,13 @@ title: Lecture 5.1 - Grammar of Graphics & bqplot
 layout: lecture
 description: >-
  We introduce the basics of bqplot & how it relates to grammar of graphics
-date: 2024-09-30
+date: 2025-02-17
 ---
 
 ## Today's Main Topics
 
  * Traitlets in Python
- * Grammar of Graphics & Imperative vs. Declaritive
+ * Grammar of Graphics & Imperative vs. Declarative
  * bqplot
 
 
@@ -20,7 +20,7 @@ bqplot!
 
 ## Where we are: Last week
 
-<img src="../week05/images/data_viz_diagram_week4.png">
+<img src="../week04/images/data_viz_diagram_week4.png">
 
 notes:
 last week we started linking together some visual encodings and programming concepts to build interactivity
@@ -38,7 +38,9 @@ we'll also cover some concepts of grammar of graphics which is a way that many w
 
 ---
 
-## But first!  Some stuff about traitlets in Python! (and some HW3 hints)
+<br/><br/><br/>
+
+## But first!  Some stuff about traitlets in Python!
 
 notes:
 
@@ -82,6 +84,22 @@ In particular, I am assuming you have watched the [Part 2 Video](https://mediasp
 notes:
 
 you also might see that you have an extra couple of days for Lab 5 -- *this does not mean you should start it later*.  This is because this is a tougher lab!
+
+---
+
+## Quick announcement about XSRF errors
+
+Your best bet is to clear cookies.
+
+<img src="images/cookies_issue.png">
+
+Feel free to pop by office hours (mine or the TA's) for any help with this!
+
+notes:
+see the pinned comment in our Slack #general channel for more details, but basically -- you want to clear cookies/cache
+
+we are working to find another solution, but don't hesitate to pop by my office hours or the TA's office hours for help with how to do this!
+
 
 ---
 
@@ -154,11 +172,11 @@ these are just a few of the ways we've been using Pandas Imperatively
 
 This week we'll be looking at a new visualization engine.
 
- * `bqplot` - both imperative & declaritive methods
+ * `bqplot` - both imperative & declarative methods
 
 Next few weeks:
- * `vega-lite` - declaritive
- * `Altair` - declaritive (built on `vega-lite`)
+ * `vega-lite` - declarative
+ * `Altair` - declarative (built on `vega-lite`)
  
 note:
 full disclosure -- bqplot has a matplotlib-like, imperative, programming interface
@@ -195,7 +213,7 @@ We will be using the latter far more frequently than the former.
 ## Why bqplot?
 
  * Has a "matplotlib" style similar to what we've been using thus far
- * Also has an option for the declaritive style of viz software like
+ * Also has an option for the declarative style of viz software like
  d3.js or tableau
  * Allows us to make NYTimes and 538-style visualizations efficiently, and
  without having to
@@ -315,6 +333,10 @@ display(fig)
 
 notes:
 walk through each line and say this order is pretty usual
+
+**go to bqplot coding!**
+
+then
 
 **go to the github lecture!**
 
