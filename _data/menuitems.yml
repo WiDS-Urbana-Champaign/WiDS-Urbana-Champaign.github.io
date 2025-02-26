@@ -3,7 +3,7 @@
   facollection: fab
   faicon: fa-slack
   weight: 20
-- name: Syllabus
+- name: Resources
   url: /syllabus
   faicon: fa-book
   weight: 10
