@@ -1,6 +1,6 @@
 ---
-layout: syllabus
-title: Syllabus
+layout: resources
+title: Resources
 notitle: true
 ---
 
