@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IS445 - Data Viz - BCU/BCG
-email: jnaiman@illinois.edu
+title: Women in Data Science | Urbana-Champaign
+email: widsurbanachampaign@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the course website for IS445-BCU/BCG in Fall 2023
-#githuburlbase: "https://github.com/UIUC-iSchool-DataViz"
+  Empowering Women at The University of Illinois Urbana-Champaign in the Field of Data Science
 githuburlbase: "UIUC-iSchool-DataViz"
-baseurl: "/is445_bcubcg_fall2023" # the subpath of your site, e.g. /blog
-url: "https://uiuc-ischool-dataviz.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "UIUC-iSchool-DataViz.github.io/is445_bcubcg_fall2023"
-github_username:  jnaiman
+baseurl: "/is445_obuobg_spring2025" # the subpath of your site, e.g. /blog
+url: "https://wids-urbana-champaign.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "UIUC-iSchool-DataViz.github.io/is445_obuobg_spring2025"
+github_username:  WiDS-Urbana-Champaign
 branch: master
 port: 4009
 
@@ -37,6 +36,8 @@ plugins:
 # to override the default setting.
 exclude:
  - "*/inClass/*"
+ - "*/inClassJekyll/*"
+ - "*/prepJekyll/*"
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
