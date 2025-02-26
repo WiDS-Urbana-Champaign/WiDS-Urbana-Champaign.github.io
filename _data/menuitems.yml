@@ -1,5 +1,5 @@
 - name: Slack
-  url: https://is445-fall2023.slack.com/
+  url: https://join.slack.com/t/widsuiuc/shared_invite/zt-30nxsdwkl-BjzoW2fBPWA5CrZVNEMLhw
   facollection: fab
   faicon: fa-slack
   weight: 20
